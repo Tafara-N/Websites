@@ -1,0 +1,30 @@
+body {
+  background: url(https://images.unsplash.com/photo-1605041140728-fecfe5b22e16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRhdGluZyUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+html {
+  height: 100%;
+}
+
+.content {
+  padding-top: 25%;
+  text-align: center;
+}
+
+#h3_text, #h1_text {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
