@@ -16,6 +16,9 @@ Practising making:
 ### Backend
 - C
 - Python
+    - FrameWorks
+        - Django
+        - Flask
 - Node.js
 - Databases
     - SQL
@@ -25,3 +28,7 @@ Practising making:
     - NoSQL
         - MongoDB
         - Redis
+- API
+    - JSON
+    - REST API
+    - RESTful API
